@@ -1,29 +1,60 @@
-# Viro Starter Kit
+🛍️ ShopiNet
 
-This is a blank React Native project setup with Viro.
+ShopiNet est une application mobile de e-commerce permettant aux utilisateurs d’acheter des vêtements et accessoires en ligne.
+Elle s’appuie sur une architecture moderne et modulaire, combinant React Native pour le mobile, React.js pour le portail web, et un backend Express.js connecté à une base de données PostgreSQL.
 
-## Prerequesites 
+🚀 Objectif du projet
 
-Set up the development environment for [react native](https://reactnative.dev/docs/environment-setup). 
+L’objectif principal de ShopiNet est d’offrir une expérience fluide et intuitive pour les utilisateurs souhaitant :
 
-> ⚠️ NOTE: The android emulators are not supported by Viro. See [this](https://viro-community.readme.io/docs/frequently-asked-questions#does-this-work-with-ios-simulators-or-android-emulators).
+Parcourir et rechercher des produits (vêtements, accessoires, etc.)
 
-## Installation
+Ajouter des articles à leur panier
 
-1. `git clone https://github.com/ViroCommunity/starter-kit.git`
-2. `cd starter-kit`
-3. `npm install`
-4. `npx pod-install` (iOS)
-5. `npx react-native run-android` or `npx react-native run-ios`
+Passer des commandes et suivre leurs achats
 
-if `npx react-native run-android` fails with EACCESS gradlew.bat or EACCESS gradlew, run `chmod +x gradlew.bat` or `chmod +x gradlew`.
+Gérer leur profil et leurs adresses de livraison
 
-NOTE: The variant arguments are not needed for debug or release.
+⚙️ Technologies utilisées
+🖥️ Frontend :
 
-## How to Install Viro in an existing project?
+React Native → Application mobile multiplateforme (Android/iOS)
 
-If you are integrating ViroReact into an existing project, have a look at our [Installation instructions](https://github.com/ViroCommunity/viro/blob/main/readmes/INSTALL.md). Please note that this does _not_ work with Expo Managed Workflows. Sorry!
+React.js → Portail web responsive (administration & vitrine)
 
-# Need help?
+Axios → Communication avec l’API backend
 
-[Reach us in Discord.](https://discord.gg/YfxDBGTxvG)
+Tailwind CSS ou Styled Components → Design moderne et modulable
+
+⚙️ Backend :
+
+Node.js / Express.js → API RESTful
+
+PostgreSQL → Base de données relationnelle
+
+Sequelize ORM → Gestion des modèles et requêtes SQL
+
+Postman → Tests et documentation des endpoints
+
+JWT → Authentification sécurisée
+
+📱 Fonctionnalités principales
+Côté utilisateur (mobile) :
+
+🛒 Parcourir les produits par catégorie
+
+🔍 Rechercher un article spécifique
+
+❤️ Ajouter aux favoris
+
+👤 Gérer le profil et les commandes
+
+💳 Passer une commande et payer en ligne (optionnel)
+
+Côté administrateur (web) :
+
+📦 Gérer les produits (CRUD)
+
+🧾 Gérer les commandes et utilisateurs
+
+📈 Suivre les statistiques de ventes
